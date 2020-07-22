@@ -23,7 +23,9 @@ _Tectonic articulation; technical building requirements, including building syst
 Upon completion of this course, the student should have demonstrated the following skills:
 
 >Exploit a parametric of form, material or space to formulate an architectural design
+>
 >Use numerical and scripting tools to execute architectural drawings and artifacts.
+>
 >Convey a comprehensive plan using parametric tools and numerical methods
 
 All assignments will require, in different ways, these skills and the concepts which support them. 
