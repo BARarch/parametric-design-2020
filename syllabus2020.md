@@ -91,6 +91,6 @@ All intellectual property rights of student works, including but not limited to 
 
 _Student work, including drawings, models, and written reports, may be retained by the University, indefinitely, at each Instructor’s discretion. For questions about grade appeal policies and other administrative matters, please refer to the Department of Architecture Student Guidelines._
 
-***If you require an accommodation due to a disability, please contact the Office of Student Disability Support Services (SDSS) to register.  More information regarding the intake procedure can be found on  the SDSS website: http//www.morgan.edu/SDSS.&nbsp; It is your responsibility to request an accommodation from SDSS before or at the beginning of the semester.***
+***If you require an accommodation due to a disability, please contact the Office of Student Disability Support Services (SDSS) to register.  More information regarding the intake procedure can be found on  the SDSS website: www.morgan.edu/SDSS.&nbsp; It is your responsibility to request an accommodation from SDSS before or at the beginning of the semester.***
 
 
