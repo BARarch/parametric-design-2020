@@ -74,4 +74,23 @@ Midterm and final Grades may be interpreted in the following way:
 	    C 	Does Not Meet Expectations 	(ie, partially incomplete, visually unsophisticated, and/or partially lacking technical competence)
 	    F 	Unsatisfactory 			    (ie, incomplete, little or no progress shown, and/or fully lacking technical and visual competence)
 
+Graduate students in good standing are expected to achieve grades of A or B. 
+
+_Completion of ALL assignments is required for each student’s successful completion of the course. Students who have not completed all assignments by the final class session will receive an F for the semester._
+
+## Other Considerations
+All students should familiarize themselves with the Department of _Architecture’s Studio Culture Policy_ and with all requirements described in the Department’s _Student Guidelines._ These documents are available for download from the course website on Blackboard. Where specific requirements indicated in this syllabus differ from general policies in those documents, this syllabus should guide student work.
+
+_Late Work:_ Late work will not be accepted unless it qualifies as excused due to health problems or extreme personal challenges.  All classroom assignments are due at the beginning of the class period. 
+
+_Incomplete Work:_  As noted above, completion of ALL assignments is required for successful completion of the course. Students who have not completed all assignments by the final class session will receive an F for the semester.
+
+_Authorship of Work:_ Any work that is judged to be either wholly or in part based on the work of another student or author (published or not), which is not properly credited (i.e. footnoted), will be considered plagiarism, and therefore failing to meet the major educational objectives of the University. Plagiarism undermines the integrity of the individual, his or her fellow students, and the entire university community at large.  It is for this reason that students who have committed plagiarism in this course will receive a failure for a final course grade.  No warnings will be issued.
+
+All intellectual property rights of student works, including but not limited to architectural models, design plans, etc., are governed by the applicable University policies: Copyright, Patent and Trademark policies. You can view those policies at www.morgancounsel.org. 
+
+_Student work, including drawings, models, and written reports, may be retained by the University, indefinitely, at each Instructor’s discretion. For questions about grade appeal policies and other administrative matters, please refer to the Department of Architecture Student Guidelines._
+
+***If you require an accommodation due to a disability, please contact the Office of Student Disability Support Services (SDSS) to register.  More information regarding the intake procedure can be found on  the SDSS website: http//www.morgan.edu/SDSS.&nbsp; It is your responsibility to request an accommodation from SDSS before or at the beginning of the semester.***
+
 
