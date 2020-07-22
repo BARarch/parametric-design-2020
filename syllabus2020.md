@@ -69,10 +69,13 @@ Calculation of Final grades will be based on aggregated assessments of assigned 
 
 Midterm and final Grades may be interpreted in the following way: 
 
-	    A 	Exceeds Expectations 		(ie, exceptional work in both technique and concept)  
-	    B 	Meets Expectations 		    (ie, complete, competent, and continually improving)  
-	    C 	Does Not Meet Expectations 	(ie, partially incomplete, visually unsophisticated, and/or partially lacking technical competence)
-	    F 	Unsatisfactory 			    (ie, incomplete, little or no progress shown, and/or fully lacking technical and visual competence)
+>A 	Exceeds Expectations 		(ie, exceptional work in both technique and concept)  
+>
+>B 	Meets Expectations 		    (ie, complete, competent, and continually improving)  
+>
+>C 	Does Not Meet Expectations 	(ie, partially incomplete, visually unsophisticated, and/or partially lacking technical competence)
+>	    
+>F 	Unsatisfactory 			    (ie, incomplete, little or no progress shown, and/or fully lacking technical and visual competence)
 
 Graduate students in good standing are expected to achieve grades of A or B. 
 
