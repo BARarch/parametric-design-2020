@@ -10,7 +10,7 @@ Each student in the course has their own branch of the repository.  These branc
 
 For assignments in the course students shall use the 'git pull' command to get the files for the assignment
 
-        $ git pull origin master
+        $ git pull origin master
 
 Do some work and make saves to your files and then do a 'commit.' If files are added, do an _add_ to add all new file to your branch
 
@@ -18,11 +18,11 @@ Do some work and make saves to your files and then do a 'commit.' If files are a
 
 Commits are like checkpoints for the state of your work in the repository.  These checkpoints are what we use to revert back to previous versions instead of using a _save as_.  Notes included in the commit statement are helpful in referring to desired checkpoints.
 
-        $ git commit -a -m "write a small description or note here"
+        $ git commit -a -m "write a small description or note here"
 
 How often you commit is up to you.  You can commit with every save if you like.  These changes will occur locally on your computer.  When you are ready to submit your work to the remote repository where I and other students can see it use a git push command to ***your branch***
 
-        $ git push origin first name
+        $ git push origin first name
 
 This means you are pushing to the remote repo call _origin_ to a branch named after your first name.
 
