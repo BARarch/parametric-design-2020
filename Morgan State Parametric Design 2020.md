@@ -22,7 +22,7 @@ Commits are like checkpoints for the state of your work in the repository.  Thes
 
 How often you commit is up to you.  You can commit with every save if you like.  These changes will occur locally on your computer.  When you are ready to submit your work to the remote repository where I and other students can see it use a git push command to ***your branch***
 
-        $ git push origin first name
+        $ git push origin [firstname]
 
 This means you are pushing to the remote repo call _origin_ to a branch named after your first name.
 
