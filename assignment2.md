@@ -21,14 +21,14 @@ When opening the editor in the class folder you will see all of the files inside
 
 Open _hello.py_ and change the word _World_ in "Hello World" on line 5 to your name and Save this file.
 
-![Replace "World" with your name](Images/Visual-Studio-Code.PNG)
+![Replace "World" with your name](Images/helloWorldCode.PNG)
 
 ### Commit and Push to the Repository
 Goto the git bash window and type
 
         $git commit -a -m "first commit"
 
-This commits the changes you made to your file.  You can now submit your code by pushing the code to your branch of the repository.  *Remember the name of your branch is your first name*
+This commits the changes you made to your file.  You can now submit your code by pushing the code to your branch of the repository.  ***Remember the name of your branch is your first name.***
 
         $git push origin [branch-name]
 
