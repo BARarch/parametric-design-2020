@@ -1,17 +1,17 @@
-# Assignment 2: Getting started with GitHub and Processing 3
+# Assignment 2: Getting started with GitHub and Python
+For this assignment the students will get a feel for the flow of software production and post to the class repository.  
 
-## GitHub
+### Accept the invitation
+Each student will have the ability to sumbit their solutions to the class repository.  Check your email for an invitation from GitHub and accept this invitation.
 
-### Download git bash
+### Install Microsoft Studio Code
+Microsoft studio is a code editor you can use to edit files outside of processing. 
+goto ---- in order to download and install.
 
-### Download Course Folder
+Open code from the git Bash window by typing
 
-### Create a Branch
+        $code .   
 
-### Basic Commads
 
-## Processing 3
 
-This program works in either java or python mode. Feel free to choose your preference. The demos and referencing materials for the course will be written in python.
 
-### P3.js download
