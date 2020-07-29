@@ -7,6 +7,8 @@
 The students will cut a plan for their parametric interventions.  Geometries will be created using processing and concepts will be explored through parametric design methods.  Students will refine the output from these scripted models and produce output in quickly.
 
 ## Code Snippets for Plans
+https://github.com/BARarch/parametric-design-2020/tree/master/Code-Snippets
+![Code Snippets](Images/codeSnippets.PNG)
 We will abstractly use these programs to help with aggregating geometries without getting bogged down with structuring code in a programming language.  The student shall make changes and infer the development of patterns from successive tweaks and modifications of these scripts.
 
 ## Class Work Session and Desk Crit
