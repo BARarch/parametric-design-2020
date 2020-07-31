@@ -32,7 +32,7 @@ class Row:
         self.angle +=self.rotSpeed
         
     def display(self):
-        if self.x < 1300:
+        if self.x < 700:
             xp, yp = reTransform(self.x, self.y, self.angle)
             rotate(self.angle)
             rect(xp - 20, yp - 20, 40, 40)
@@ -41,7 +41,7 @@ class Row:
 squares = Row(30, 400)    
 
 def setup():
-    size(1400, 940)
+    size(800, 800)
     background(220)
     stroke(50)
     noFill()
