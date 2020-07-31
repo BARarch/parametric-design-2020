@@ -16,7 +16,7 @@ class State:
         self.flag = True
         
     def released(self):
-        self.released = False
+        self.flag = False
 
 class Row:
     def __init__(self, startX, startY):
@@ -38,7 +38,9 @@ class Row:
             rect(xp - 20, yp - 20, 40, 40)
             self.frame += 1
         
-squares = Row(30, 400)    
+squares = Row(30, 400)
+mouseDown = State()
+rows = []  
 
 def setup():
     size(800, 800)
@@ -48,5 +50,13 @@ def setup():
     strokeWeight(3)
     
 def draw():
-    squares.move()
-    squares.display()
+    if (mousePressed and not mouseDown.flag):
+        rows.append(Row(mouseX, mouseY))
+        mouseDown.clicked()
+
+    if (not mousePressed and mouseDown.flag):
+        mouseDown.released()
+    
+    for row in rows:
+        row.move()
+        row.display()
