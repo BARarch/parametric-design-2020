@@ -21,6 +21,7 @@ loc = positions(nX, nY)
 
 def setup():
     size(1000, 1000)
+
     background(220)
     stroke(50)
     noFill()
