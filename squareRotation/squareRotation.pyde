@@ -1,13 +1,6 @@
 def reTransform(x, y, phi):
     return x * cos(phi) + y * sin(phi), -x * sin(phi) + y * cos(phi)
 
-i = 0
-y = 400
-x = 40
-angle = 0
-speed = 10
-rotSpeed = 4
-
 class State:
     def __init__(self):
         self.flag = False
