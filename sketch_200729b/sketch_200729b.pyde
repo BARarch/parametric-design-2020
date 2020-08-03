@@ -10,7 +10,7 @@ def draw():
     background(20)
     cornerRadius = mouseX/10.0
     print(cornerRadius)
-    for  in range(rectCount):
+    for S in range(rectCount):
         for l in range(rectCount):
             noStroke()
             fill(150)
