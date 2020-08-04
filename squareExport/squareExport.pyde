@@ -6,9 +6,9 @@ def positions(nX, nY):
         for j in range(nX):
             yield (j, i)        
                                     
-def display(x, y):
-    angle = .005 * (x + y)
-    angle2 = .008 * (x + y)
+def display(x, y, coef):
+    angle = (coef + .005) * (x + y)
+    angle2 = (coef + .008) * (x + y)
     xp, yp = reTransform(x, y, angle)
     strokeWeight(abs(3 * cos(angle2)))
     rotate(angle)
@@ -18,6 +18,8 @@ nX = 40
 nY = 40        
 
 loc = positions(nX, nY)
+colorRun = 1
+c = .001
 
 def setup():
     size(1000, 1000)
@@ -32,10 +34,14 @@ def draw():
         i, j = next(loc)
         x = map(i, 0, nX, 0, width)
         y = map(j, 0, nY, 0, height)
-        display(x, y)
+        display(x, y, c)
         print("x=" + str(x) + " y=" + str(y))
     except Exception as e:
-        print(e)
-        print("Done")
-        noLoop()
-    
+        if colorRun:
+            loc = positions(nX, nY)
+            colorRun = 0
+            c = .003
+            stroke(255, 0, 0)
+        else:
+            print("Done")
+            noLoop()
