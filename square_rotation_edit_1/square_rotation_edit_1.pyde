@@ -1,3 +1,4 @@
+add_library('pdf')
 def reTransform(x, y, phi):
     return x * cos(phi) + y * sin(phi), -x * sin(phi) + y * cos(phi)
 
@@ -25,6 +26,7 @@ def setup():
     stroke(50)
     noFill()
     strokeWeight(3)
+    beginRecord(PDF, "sqaure_rotation_edit_1.pdf")
     
 def draw():
     try:
@@ -35,6 +37,7 @@ def draw():
         print("x=" + str(x) + " y=" + str(y))
     except Exception as e:
         print(e)
+        endRecord()
         print("Done")
         noLoop()
     
