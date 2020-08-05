@@ -5,7 +5,7 @@ class ColorTriangle:
         self.d = dia
         self.i = 0
         self.col = "RED"
-        self.colorLimit = 100
+        self.colorLimit = 5
         
         self.theta0, self.theta1, self.theta2 = 0, 0, 0
         self.d0, self.d1, self.d2 = self.d, self.d, self.d
@@ -49,6 +49,7 @@ def setup():
     strokeWeight(8)
     strokeJoin(ROUND)
     t1.set_center(x, y)
+    beginRecord(PDF, "triangle_output_demo.pdf")
     
 def draw():
     grey = random(0, 255)
@@ -77,8 +78,12 @@ def draw():
         t1.moveP2(col / 255, ((grey - 128) / 128) * PI / 8)
         t1.display()
         if t1.i == t1.colorLimit:
-            t1.col = "RED"
+            t1.col = 1
             t1.i = 0
+
+    else:
+        noLoop()
+        endRecord()
     
     
     
