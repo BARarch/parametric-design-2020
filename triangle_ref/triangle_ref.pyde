@@ -10,9 +10,12 @@ class ColorTriangle:
         self.theta0, self.theta1, self.theta2 = 0, 0, 0
         self.d0, self.d1, self.d2 = self.d, self.d, self.d
         
-    def place_center(self, centerX, centerY):
+    def set_center(self, centerX, centerY):
         self.centerX = centerX
         self.centerY = centerY
+
+    def set_diamter(self, d):
+        self.d = d
         
     def display(self):
         def transform(r, theta):
@@ -45,7 +48,7 @@ def setup():
     y = map(.5, 0, 1, 0, height)
     strokeWeight(8)
     strokeJoin(ROUND)
-    t1.place_center(x, y)
+    t1.set_center(x, y)
     
 def draw():
     grey = random(0, 255)
