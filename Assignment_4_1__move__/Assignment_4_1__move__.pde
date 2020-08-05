@@ -8,7 +8,7 @@ void setup() {
  noStroke();
  }
  void draw() {
- for (int i = 0; i < 50; i++) { // Draw 50  shapes
+ for (int i = 0; i < 50; i++) { // Draw 50 x shapes
  drawX(int(random(255)), int(random(30)),
  int(random(width)), int(random(height)), 100);
  }
@@ -18,14 +18,14 @@ void setup() {
  strokeCap(ROUND);
  strokeWeight(12);
  
- line(x, y, x, y);
- line(x+size, movey, dragx, y+size);
+ line(movex, movey, dragx, dragy);
+ line(x, movey, dragx, y);
  }
- void mouseMoved() { // Move gray circle
+ void mouseMoved() { 
  movex = mouseX;
  movey = mouseY;
  }
- void mouseDragged() { // Move black circle
+ void mouseDragged() {
  dragx = mouseX;
  dragy = mouseY;
  }
