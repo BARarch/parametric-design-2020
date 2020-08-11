@@ -1,3 +1,5 @@
+import processing.pdf.*;
+
 size(800, 800);
 fill(255); 
 rect(10, 10, 800, 700);
